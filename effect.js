@@ -26,6 +26,9 @@ function crearPokemon(pokemon){
   div.appendChild(img);
   div.appendChild(h3);
 
+  //limpiar pantalla
+  pokemonContainer.innerHTML = "";
+
   pokemonContainer.appendChild(div);
 }
 
